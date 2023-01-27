@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="E:/Tester Funix/automaton testing/ASM/ASM2/ASSIGNMENT_2_SELENIUM">
+        <classes>
+            <class name="com.automation.testcase.TC_LoginTest">
+                <methods>
+                    <include name="TC01_LoginFirstAccount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
